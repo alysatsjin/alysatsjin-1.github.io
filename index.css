@@ -122,10 +122,10 @@ img {
 h1,
 h2,
 h3 {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Hk Grotesk', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color: yellow;
 }
 
 .heading-primary {
@@ -219,7 +219,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--pink);
+    border: 1px solid  #328eff;
     font-weight: 400;
 }
 
@@ -247,7 +247,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .btn--pink {
-    background: var(--pink);
+    background: #328eff;
     transition: all 0.2s;
 }
 
@@ -469,6 +469,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__text {
     flex: 0 0 30%;
+    font-style: italic;
+    color: aqua
 }
 
 .work__list {
